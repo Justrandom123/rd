@@ -113,7 +113,7 @@ getgenv().GAG2Config = {
 
     FAVOURITE_FRUIT = {},  -- ["Fruit Name"] = {} or ["Fruit Name"] = {"Gold", "Rainbow"}
 
-    FOCUS_COLLECT_DROPPED_SEED = false,
+    FOCUS_COLLECT_DROPPED_SEED = true,
     -- Set true for Public Servers to Collect Immediately
     -- Set false to Collect Slightly Slower
 

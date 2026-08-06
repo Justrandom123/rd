@@ -88,6 +88,7 @@ getgenv().GAG2Config = {
     BUY_GEAR = {  -- ["Gear Name"] = Buy Until Amount
         ["Super Syrup Watering Can"] = 9999,
         ["Super Syrup Sprinkler"] = 9999,
+        ["Trowel"] = 9999,
     },
 
     -- Sell Config

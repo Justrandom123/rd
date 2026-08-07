@@ -10,8 +10,8 @@ getgenv().GAG2Config = {
     MAX_PET_EQUIP = 6,
     BUY_PET = {  -- ["Pet Name"] = Buy Until Amount
         ["ShadowDragon"] = 99,
-        ["Fox"] = 99,
-        ["Wolf"] = 99,
+        --["Fox"] = 99,
+        --["Wolf"] = 99,
         ["Swan"] = 5,
         ["Turkey"] = 5,
     },
@@ -81,7 +81,11 @@ getgenv().GAG2Config = {
         ["Amber Cranberry"] = 9999,
     },
 
-    BUY_AUCTION = {},  -- ["Item Name"] = {Maximum Sheckle Price, Buy Until Amount}
+    BUY_AUCTION = {
+        ["Amber Cranberry"] = 100000000,
+        ["Super Syrup Watering Can"] = 10000000,
+        ["Super Syrup Sprinkler"] = 10000000,
+    },  -- ["Item Name"] = {Maximum Sheckle Price, Buy Until Amount}
     BUY_CRATE = {},  -- ["Crate Name"] = Buy Until Amount
 
     BUY_GEAR_MIN_SHECKLE = 1000000,
@@ -89,6 +93,7 @@ getgenv().GAG2Config = {
         ["Super Syrup Watering Can"] = 9999,
         ["Super Syrup Sprinkler"] = 9999,
         ["Trowel"] = 9999,
+        ["Super Magic Mail"] = 9999,
     },
 
     -- Sell Config
@@ -113,7 +118,7 @@ getgenv().GAG2Config = {
 
     FAVOURITE_FRUIT = {},  -- ["Fruit Name"] = {} or ["Fruit Name"] = {"Gold", "Rainbow"}
 
-    FOCUS_COLLECT_DROPPED_SEED = true,
+    FOCUS_COLLECT_DROPPED_SEED = false,
     -- Set true for Public Servers to Collect Immediately
     -- Set false to Collect Slightly Slower
 
@@ -133,7 +138,7 @@ getgenv().GAG2Config = {
     },
 
     WEBHOOK_URL = "https://discord.com/api/webhooks/1526085142202941442/WD7Il0sdDGCpdHuZJghMNr7CpmGoTFSMqFVKGvYoPD1Th_0ajFm38eCzFG6pVTE200ZG",
-    DISCORD_ID = "622997465607700510",
+    DISCORD_ID = "",
     WEBHOOK_NOTE = "",  -- Personal Webhook
 
     SHOW_PUBLIC_DISCORD_ID = true,

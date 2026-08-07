@@ -82,9 +82,9 @@ getgenv().GAG2Config = {
     },
 
     BUY_AUCTION = {
-        ["Amber Cranberry"] = 100000000,
-        ["Super Syrup Watering Can"] = 10000000,
-        ["Super Syrup Sprinkler"] = 10000000,
+        --["Amber Cranberry"] = 100000000,
+        --["Super Syrup Watering Can"] = 10000000,
+        --["Super Syrup Sprinkler"] = 10000000,
     },  -- ["Item Name"] = {Maximum Sheckle Price, Buy Until Amount}
     BUY_CRATE = {},  -- ["Crate Name"] = Buy Until Amount
 

@@ -72,8 +72,8 @@ getgenv().GAG2Config = {
         ["Maple Acorn"] = 3,
         ["Maple Cherry"] = 1,
         ["Maple Sunflower"] = 1,
-        ["Atlantic Giant Pumpkin"] = 1,
-        ["Maple Venus Fly Trap"] = 1,
+        ["Atlantic Giant Pumpkin"] = 9999,
+        ["Maple Venus Fly Trap"] = 9999,
         ["Maple Pomegranate"] = 1,
         ["Maple Poison Apple"] = 1,
         ["Maple Venom Spitter"] = 1,
@@ -85,6 +85,8 @@ getgenv().GAG2Config = {
         ["Amber Cranberry"] = {100000000, 9999},
         ["Super Syrup Watering Can"] = {10000000, 9999},
         ["Super Syrup Sprinkler"] = {10000000,9999},
+        ["Atlantic Giant Pumpkin"] = {100000000,9999},
+        ["Maple Venus Fly Trap"] = {100000000,9999},
     },  -- ["Item Name"] = {Maximum Sheckle Price, Buy Until Amount}
     BUY_CRATE = {},  -- ["Crate Name"] = Buy Until Amount
 
